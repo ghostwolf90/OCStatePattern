@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5FFD9E791F8306B1009391D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD9E781F8306B1009391D9 /* main.m */; };
+		5FFD9E811F8306D6009391D9 /* Work.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD9E801F8306D6009391D9 /* Work.m */; };
+		5FFD9E841F83071A009391D9 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD9E831F83071A009391D9 /* State.m */; };
+		5FFD9E871F830756009391D9 /* ForenoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD9E861F830756009391D9 /* ForenoonState.m */; };
+		5FFD9E8A1F8307A6009391D9 /* NoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD9E891F8307A6009391D9 /* NoonState.m */; };
+		5FFD9E8D1F8307E0009391D9 /* AfternoonState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD9E8C1F8307E0009391D9 /* AfternoonState.m */; };
+		5FFD9E901F830820009391D9 /* EveningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD9E8F1F830820009391D9 /* EveningState.m */; };
+		5FFD9E931F830851009391D9 /* SleepingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD9E921F830851009391D9 /* SleepingState.m */; };
+		5FFD9E961F830884009391D9 /* RestState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD9E951F830884009391D9 /* RestState.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,22 @@
 /* Begin PBXFileReference section */
 		5FFD9E751F8306B1009391D9 /* State */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = State; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FFD9E781F8306B1009391D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5FFD9E7F1F8306D6009391D9 /* Work.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Work.h; sourceTree = "<group>"; };
+		5FFD9E801F8306D6009391D9 /* Work.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Work.m; sourceTree = "<group>"; };
+		5FFD9E821F83071A009391D9 /* State.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = "<group>"; };
+		5FFD9E831F83071A009391D9 /* State.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
+		5FFD9E851F830756009391D9 /* ForenoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForenoonState.h; sourceTree = "<group>"; };
+		5FFD9E861F830756009391D9 /* ForenoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForenoonState.m; sourceTree = "<group>"; };
+		5FFD9E881F8307A6009391D9 /* NoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoonState.h; sourceTree = "<group>"; };
+		5FFD9E891F8307A6009391D9 /* NoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoonState.m; sourceTree = "<group>"; };
+		5FFD9E8B1F8307E0009391D9 /* AfternoonState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AfternoonState.h; sourceTree = "<group>"; };
+		5FFD9E8C1F8307E0009391D9 /* AfternoonState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AfternoonState.m; sourceTree = "<group>"; };
+		5FFD9E8E1F830820009391D9 /* EveningState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EveningState.h; sourceTree = "<group>"; };
+		5FFD9E8F1F830820009391D9 /* EveningState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EveningState.m; sourceTree = "<group>"; };
+		5FFD9E911F830851009391D9 /* SleepingState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SleepingState.h; sourceTree = "<group>"; };
+		5FFD9E921F830851009391D9 /* SleepingState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepingState.m; sourceTree = "<group>"; };
+		5FFD9E941F830884009391D9 /* RestState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestState.h; sourceTree = "<group>"; };
+		5FFD9E951F830884009391D9 /* RestState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestState.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,22 @@
 			isa = PBXGroup;
 			children = (
 				5FFD9E781F8306B1009391D9 /* main.m */,
+				5FFD9E7F1F8306D6009391D9 /* Work.h */,
+				5FFD9E801F8306D6009391D9 /* Work.m */,
+				5FFD9E821F83071A009391D9 /* State.h */,
+				5FFD9E831F83071A009391D9 /* State.m */,
+				5FFD9E851F830756009391D9 /* ForenoonState.h */,
+				5FFD9E861F830756009391D9 /* ForenoonState.m */,
+				5FFD9E881F8307A6009391D9 /* NoonState.h */,
+				5FFD9E891F8307A6009391D9 /* NoonState.m */,
+				5FFD9E8B1F8307E0009391D9 /* AfternoonState.h */,
+				5FFD9E8C1F8307E0009391D9 /* AfternoonState.m */,
+				5FFD9E8E1F830820009391D9 /* EveningState.h */,
+				5FFD9E8F1F830820009391D9 /* EveningState.m */,
+				5FFD9E911F830851009391D9 /* SleepingState.h */,
+				5FFD9E921F830851009391D9 /* SleepingState.m */,
+				5FFD9E941F830884009391D9 /* RestState.h */,
+				5FFD9E951F830884009391D9 /* RestState.m */,
 			);
 			path = State;
 			sourceTree = "<group>";
@@ -119,6 +159,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FFD9E8D1F8307E0009391D9 /* AfternoonState.m in Sources */,
+				5FFD9E901F830820009391D9 /* EveningState.m in Sources */,
+				5FFD9E931F830851009391D9 /* SleepingState.m in Sources */,
+				5FFD9E8A1F8307A6009391D9 /* NoonState.m in Sources */,
+				5FFD9E841F83071A009391D9 /* State.m in Sources */,
+				5FFD9E871F830756009391D9 /* ForenoonState.m in Sources */,
+				5FFD9E811F8306D6009391D9 /* Work.m in Sources */,
+				5FFD9E961F830884009391D9 /* RestState.m in Sources */,
 				5FFD9E791F8306B1009391D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
